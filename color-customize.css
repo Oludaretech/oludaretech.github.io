@@ -1,0 +1,49 @@
+img {
+    height: 600px;
+    width: 1100px;
+}
+
+.info-main1 {
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gold {
+    background-color: goldenrod;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+
+.Select {
+    height: 50px;
+    width: 200px;
+    border-radius: 0% 50% 50% 0%;
+    border: none;
+    color: rgb(33, 1, 1);
+    font-size: 30px;
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar {
+    background: rgb(5, 68, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.logout-profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .sidebar .profile {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3 {
+    color: #ffffff;
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+
+.wrapper .sidebar .profile p {
+    color: rgb(206, 240, 253);
+    font-size: 15px;
+}
+
+.wrapper .sidebar ul li a {
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid rgb(0, 5, 8);
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon {
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+    color: black;
+    background: white;
+    border-right: 2px solid rgb(0, 5, 8);
+    border-radius: 30px 0px 0px 30px;
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon {
+    color: black;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before {
+    display: block;
+}
+
+.wrapper .section {
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar {
+    background: rgb(5, 68, 104);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .section .top_navbar .hamburger a {
+    font-size: 28px;
+    color: #f4fbff;
+}
+
+.wrapper .section .top_navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .section .top_navbar a {
+    color: white;
+}
+
+.wrapper .section .top_navbar span {
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover {
+    color: #a2ecff;
+}
+
+body.active .wrapper .sidebar {
+    left: -225px;
+}
+
+body.active .wrapper .section {
+    margin-left: 0;
+    width: 100%;
+}
+
+.wrapper .main_content {
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 225px;
+    margin-right: 25px;
+}
+
+.wrapper .main_content .header {
+    padding: 20px;
+    background: #fff;
+    color: rgb(5, 68, 104);
+    border-bottom: 1px solid #e0e4e8;
+}
+
+.wrapper .main_content .info {
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+
+.wrapper .main_content .info div {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    background: white;
+    padding: 100px;
+    position: fixed;
+    top: 70px;
+    left: 225px;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+
+.info-mains {
+    margin-top: 100px;
+    margin-left: 225px;
+    margin-right: 100px;
+}
+
+img {
+    height: 600px;
+    width: 800px;
+    margin-right: 100px;
+}
+
+.info-title {
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.info-title h1 {
+    color: rgb(0, 5, 8);
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.sub-info-bar {
+    height: 50px;
+    width: 100%;
+    margin-left: 15%;
+    background: #e10505;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* .btn01 {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    text-align: center;
+} */
+
+.welcome-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    width: 50px;
+    color: rgb(5, 68, 104);
+}
+
+.video1 {}
+
+.conti-btn {
+    background-color: rgb(5, 68, 104);
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5% 50% 50% 5%;
+    box-shadow: #717171;
+}
+
+.a-btn {
+    color: white;
+}
+
+footer {
+    margin-top: 600px;
+    margin-left: 20px;
+    color: grey;
+}

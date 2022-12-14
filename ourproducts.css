@@ -1,0 +1,10 @@
+.product-pics {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+.ab {
+    width: 350px;
+    height: 350px;
+}
